@@ -268,9 +268,29 @@ main #banner > .offer > .body > .prod > .buy > .price > p {
   bottom: 10px;
   font-weight: bold;
 }
-main #banner > .offer > .body > .prod > .buy-options > button :first-child {
+main #banner > .offer > .body > .prod > .buy-buttons {
+  position: absolute;
+  right: 0;
+}
+main #banner > .offer > .body > .prod > .buy-buttons > :first-child {
   border-radius: 6px;
   border-color: currentColor;
   background: 0 0;
-  color: #f6861f;
+  background-color: #f6861f;
+  color: white;
+  border: 1px solid currentColor;
+  padding: 1.1rem 3.5rem 1rem 0.2rem;
+  font-size: 1rem;
+  align-items: center;
+  cursor: pointer;
+}
+main #banner > .offer > .body > .prod > .buy-buttons > :last-child {
+  background-color: #40b659;
+  color: white;
+  border: 1px solid currentColor;
+  border-radius: 6px;
+  padding: 1rem 1rem;
+  font-weight: 600px;
+  font-size: 1.2rem;
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
